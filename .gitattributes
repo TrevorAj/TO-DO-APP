@@ -1,6 +1,7 @@
-*.dart linguist-detectable=true
 *.dart linguist-language=Dart
-*.cpp linguist-detectable=false
-*.h linguist-detectable=false
-
+android/** linguist-generated=true
+ios/** linguist-generated=true
+build/** linguist-generated=true
+*.cpp linguist-generated=true
+*.h linguist-generated=true
 
