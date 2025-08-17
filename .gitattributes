@@ -1,12 +1,6 @@
-# Tell GitHub linguist what language to prioritize
+*.dart linguist-detectable=true
 *.dart linguist-language=Dart
-*.js linguist-language=JavaScript
-
-# Ignore C++ files if they exist
 *.cpp linguist-detectable=false
 *.h linguist-detectable=false
 
-# Ignore build files
-build/* linguist-detectable=false
-android/* linguist-detectable=false
-ios/* linguist-detectable=false
+
